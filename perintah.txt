@@ -2,3 +2,5 @@ yarn add react-navigation
 yarn add react-native-gesture-handler
 yarn add react-native-reanimated
 yarn add react-native-screens
+
+gradle build --warning-mode=all
