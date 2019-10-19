@@ -15,7 +15,7 @@ class ProfileActivity extends Component {
 
         <Button
           title="Go to Home"
-          onPress={() => this.props.navigation.push('Home')}
+          onPress={() => this.props.navigation.popToTop('Home')}
         />
         <Text style={styles.headerStyle}>Create Nee Profile Screen</Text>
         <Button
