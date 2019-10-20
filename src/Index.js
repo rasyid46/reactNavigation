@@ -1,6 +1,5 @@
-import React, {Component} from 'react';
-import Container from './component/ScreenContainer';
-import {StyleSheet, Text, View, Button} from 'react-native';
+import React, {Component} from 'react'; 
+import { Text, View} from 'react-native';
 class Index extends Component {
   render() {
     return (
