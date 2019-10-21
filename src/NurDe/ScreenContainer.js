@@ -7,10 +7,11 @@ import ProfileActivity from './ProfileActivity';
 //tambahan
 import React from 'react';
 import {View} from 'react-native';
-import {createMaterialButtomTabNavigator} from 'react-navigation-material-bottom-tabs';
-import Icon from 'react-native-ionicons';
+import {createMaterialBottomTabNavigator} from 'react-navigation-material-bottom-tabs';
+import Icon from 'react-native-vector-icons/Ionicons';
 
-const RootStack = createMaterialButtomTabNavigator(
+
+const RootStack = createMaterialBottomTabNavigator(
   {
     //The Routes
     Home: {
