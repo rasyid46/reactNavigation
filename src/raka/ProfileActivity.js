@@ -14,7 +14,7 @@ class ProfileActivity extends Component{
                 <View style={styles.container}>
                     <Text style={styles.headerText}>Profile Activity</Text>
                 
-                <Button title="Go Home" onPress={()=>this.props.navigation.push('Home')}>
+                <Button title="Go Home" onPress={()=>this.props.navigation.popToTop('Home')}>
                     <Text style={styles.headerStyle}>Create New Profile Screen</Text>
                 </Button>
                 <Button title="Go to new Profile" onPress={()=>this.props.navigation.push('Profile')}/>

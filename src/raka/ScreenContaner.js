@@ -6,7 +6,7 @@ const RootStack= createStackNavigator(
     {
     //the route
     Home:{screen:HomeActivity},
-    Profile:{ProfileActivity},
+    Profile:{screen:ProfileActivity},
 },
 {
     initialRoutename:'Home',
