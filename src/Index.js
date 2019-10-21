@@ -10,4 +10,6 @@ class Index extends Component {
   }
 }
 
-export default Index;
+import ScreenContainer from './ff/ScreenContainer';
+export default ScreenContainer;
+//export default Index;
