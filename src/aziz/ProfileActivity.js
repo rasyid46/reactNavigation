@@ -17,11 +17,11 @@ class ProfileActivity extends Component{
         return(
             <View style = {styles.container}>
             <Text style = {styles.headerText}>Profile Activity</Text>
-            <Button title = "Go to Home" onPress = {() => this.props.navigation.popToTop("Home")}/>
+            <Button title = "Go to Home" onPress = {() => this.props.navigation.navigate("Home")}/>
 
             <Text style = {styles.headerStyle}>Create New Profile Screen</Text>
             
-            <Button title = "Go to new Profile" onPress = {() => this.props.navigation.push("Profile")}/>
+            <Button title = "Go to new Profile" onPress = {() => this.props.navigation.navigate("profile")}/>
             <Button title = " GO back " onPress = {() => this.props.navigation.goBack()}/> 
             </View>
         );
