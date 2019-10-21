@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import  {View, StyleSheet, Text, Button}  from 'react-native';
+import {View, StyleSheet, Text, Button} from 'react-native';
 
 class HomeActivity extends Component {
   static navigationOptions = {
@@ -13,7 +13,7 @@ class HomeActivity extends Component {
     },
   };
   render() {
-    return  (
+    return (
       <View style={styles.container}>
         <Text style={styles.headerText}>Home Activity</Text>
         <Button
@@ -30,13 +30,13 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF'
+    backgroundColor: '#F5FCFF',
   },
   headerText: {
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
   },
 });
 
