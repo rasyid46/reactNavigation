@@ -1,11 +1,10 @@
 import React, {Component} from 'react'; 
 import { Text, View} from 'react-native';
+import Container from './riza/ScreenContainer';
 class Index extends Component {
   render() {
     return (
-      <View>
-        <Text>Hai Bro</Text>
-      </View>
+      <Container />
     );
   }
 }
