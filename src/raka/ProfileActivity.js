@@ -1,20 +1,11 @@
-import React, {Component} from 'react'
-import{
-    View,
-    StyleSheet, // menginput text
-    Button,
-    Text,
-    }from 'react-native';
+import React, {Component} from 'react';
+import{View,StyleSheet,Button,Text}from 'react-native';
 
-    class ProfileActivity extends Component{
+class ProfileActivity extends Component{
         static navigationOptions={
-            title:'home',
+            title:'Profile',
             headerStyle:{
-            background: '#73c6b6'
-            },
-            headerTintColor:'#fff',
-            headerTitleStyle:{
-                fontWeight:'bold',
+                backgroundColor: '#73C6B6'
             },
         };
 
@@ -41,7 +32,7 @@ import{
         flex:1,
         justifyContent:'center',
         alignItems:'center',
-        backgroundColor:'#f5ffcff'
+        backgroundColor:'#f5fcff'
        },
        headerText:{
            fontSize:20,

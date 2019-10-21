@@ -1,15 +1,9 @@
-import React, {Component} from 'react'
-import{
-    View,
-    StyleSheet, // menginput text
-    Image,
-    Text,
-    Button
-    }from 'react-native';
+import React, {Component} from 'react';
+import{View,StyleSheet,Text,Button}from 'react-native';
 
     class HomeActivity extends Component{
         static navigationOptions={
-            title:'home',
+            title:'Home',
             headerStyle:{
                 backg: '#03A9F4'
             },
@@ -35,6 +29,7 @@ import{
             flex:1,
             justifyContent:'center',
             alignItems:'center',
+            backgroundColor:'#F5FCFF'
         },
         headerText:{
             fontSize:20,
