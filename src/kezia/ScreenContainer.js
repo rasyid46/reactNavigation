@@ -1,12 +1,12 @@
-import {createAppContainer} from 'react-native';
+import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 import HomeActivity from './HomeActivity';
-// import ProfileActivity from './ProfileActivity';
+import profileActivity from './ProfileActivity';
 const RootStack = createStackNavigator(
   {
     //The Routes
     Home: {screen: HomeActivity},
-    // Profile: {screen: ProfileActivity},
+    Profile: {screen: profileActivity}
   },
   {
     //Default Routes
