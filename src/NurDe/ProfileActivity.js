@@ -5,7 +5,7 @@ class ProfileActivity extends Component {
   static navigationOptions = {
     title: 'Profile',
     headerStyle: {
-      baackgrounColor: '#73C6B6',
+      baackgroundColor: '#73C6B6',
     },
   };
   render() {
@@ -14,12 +14,12 @@ class ProfileActivity extends Component {
         <Text style={styles.headerText}>Profile Activity</Text>
         <Button
           title="Go To Home"
-          onPress={() => this.props.navigation.popToTop('Home')}
+          onPress={() => this.props.navigation.navigate('Home')}
         />
-        <Text style={styles.headerStyle}>Create Nee Profile Screen</Text>
+        <Text style={styles.headerStyle}>Create New Profile Screen</Text>
         <Button
           title="Go To New Profile"
-          onPress={() => this.props.navigation.push('Profile')}
+          onPress={() => this.props.navigation.navigate('Profile')}
         />
         <Button
           title="Go To Back"
