@@ -1,13 +1,8 @@
 import React, {Component} from 'react'; 
-import { Text, View} from 'react-native';
+import Container from './yosua/ScreenContainer';
 class Index extends Component {
   render() {
-    return (
-      <View>
-        <Text>Hai</Text>
-      </View>
-    );
+    return  <Container/>
   }
 }
-
 export default Index;
