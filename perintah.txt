@@ -17,3 +17,13 @@ implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha0
 cd android
 chmod +x gradlew
 gradle build --warning-mode=all
+
+Navigation Tab
+
+npm i react-native-paper
+npm i react-native-reanimated
+npm i react-native-tab-view
+npm i react-native-vector-icons
+npm i react-navigation-material-bottom-tabs
+npm i react-navigation-tabs
+react-native link
