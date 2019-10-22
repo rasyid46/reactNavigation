@@ -21,6 +21,16 @@ export default class HomeActivity extends Component {
             </View>
         );
     }  
+/*  
+    render() {
+        return(
+            <View style={styles.container}>
+                <Text style={styles.headerText}>Home Activity</Text>
+                <Button title="Go to Week 4" onPress={()=>this.props.navigation.navigate('Week4')}/><Text/>
+            </View>
+        );
+    }  
+*/
 }
 const styles=StyleSheet.create({
     container:{
