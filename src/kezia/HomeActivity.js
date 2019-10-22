@@ -17,7 +17,7 @@ class HomeActivity extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.headerText}>Home Activity</Text>
-        <Button title="Go To the Profile Activity" onPress={() => this.props.navigation.push('Profile')}
+        <Button title="Go To the Profile Activity" onPress={() => this.props.navigation.navigate('Profile')}
         />
       </View>
     );

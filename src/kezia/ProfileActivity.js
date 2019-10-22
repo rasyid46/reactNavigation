@@ -16,12 +16,12 @@ export default class ProfileActivity extends Component {
 
         <Button
           title="Go To Home"
-          onPress={() => this.props.navigation.popToTop('Home')}
+          onPress={() => this.props.navigation.navigate('Home')}
         />
         <Text style={styles.headerStyle}>Create nee Profile System</Text>
         <Button
           title="Go to New Profile"
-          onPress={() => this.props.navigation.push('profiles')}
+          onPress={() => this.props.navigation.navigate('profiles')}
         />
         <Button
           title="Go Back"
