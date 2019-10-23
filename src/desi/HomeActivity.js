@@ -5,6 +5,7 @@ import {
     View,
     Button
 } from 'react-native';
+
 class HomeActivity extends Component {
     static navigationOptions = {
         title: 'Home',
